@@ -127,7 +127,7 @@ class _ImageViewerPageState extends State<ImageViewerPage> {
       ...extensions.map((e) => e.toUpperCase()),
     ];
 
-    final result = await FilePicker.platform.pickFiles(
+    final result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: allExtensions,
       allowMultiple: false,
