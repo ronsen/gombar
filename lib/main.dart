@@ -1,6 +1,5 @@
 import 'dart:io';
-
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:gombar/gombar_app.dart';
 import 'package:window_manager/window_manager.dart';
 
